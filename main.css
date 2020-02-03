@@ -142,7 +142,7 @@ h2{
   background: left center / contain no-repeat;
 }
 
-.menu__item{
+.menu__item:not(:last-child){
   margin-bottom: 31px;
 }
 
@@ -196,6 +196,7 @@ h2{
 
 .features{
   margin-bottom: 67px;
+  padding-right: 56px;
 }
 
 .features__headline{
@@ -211,13 +212,17 @@ h2{
 .features__list-option{
   width: 207px;
   display: inline-block;
-  margin-right: 57px;
   vertical-align: top;
+}
+
+.features__list-option:not(:last-child){
+  margin-right: 59px;
 }
 
 .features__icon{
   background-color: #2b2b40;
   margin: 0 auto;
+  position: relative;
 }
 
 .features__icon--flower{
@@ -241,16 +246,11 @@ h2{
   margin-bottom: 33px;
 }
 
-.icon__png--flower{
-  margin: 20px 20px 17px;
-}
-
-.icon__png--star{
-  margin: 20px;
-}
-
-.icon__png--palette{
-  margin: 20px 19px 17px;
+.icon__png{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .features__name{
@@ -298,6 +298,10 @@ h2{
   vertical-align: top;
 }
 
+.news__list{
+  margin-bottom: 50px;
+}
+
 .news__avatar--frame{
   width: 160px;
   height: 160px;
@@ -334,7 +338,7 @@ h2{
   font-size: large;
 }
 
-.news__item{
+.news__item:not(:last-child){
   margin-bottom: 49px;
 }
 
@@ -354,8 +358,12 @@ h2{
   font-size: 14px;
   font-weight: 300;
   color: #656464;
-  padding-top: 14px;
-  padding-left: 9px;
+  margin-top: 13px;
+  margin-right: 11px;
+}
+
+.pagination__arrow{
+  text-align: center;
 }
 
 .pagination__list{
@@ -364,7 +372,6 @@ h2{
 
 .pagination__item{
   display: inline;
-  width: 25px;
 }
 
 .pagination__link{
@@ -376,7 +383,7 @@ h2{
 }
 
 .pagination__controlls{
-  padding-top: 7px;
+  margin-top: 7px;
 }
 
 .pagination__link:hover{
@@ -428,11 +435,18 @@ h2{
   height: 20px;
   border-radius: 10px;
   text-align: center;
+  position: relative;
+}
+
+.socials__item:not(:last-child){
   margin-right: 6px;
 }
 
 .socials__logo{
-  padding-top: 3px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .socials__item:hover{
