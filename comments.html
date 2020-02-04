@@ -4,11 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Reviews</title>
 </head>
 <body>
 
-  <div>
+  <div class="wrapper">
 
     <header class="header">
       <div class="container header__container">
@@ -23,7 +23,7 @@
     </header>
       
     <main class="page-content">
-      <div class="container">
+      <div class="container container__reviews">
 
         <div class="sidebar">
           <nav class="menu">
@@ -41,9 +41,162 @@
           </nav>
         </div>
 
-      </div>  
+        <div class="breadcrumbs">
+          <ul class="breadcrumbs__list">
+            <li class="breadcrumbs__item">
+              <a href="/index.html" class="breadcrumbs__link">Главная</a>
+            </li>
+            <li class="breadcrumbs__item">
+              <a href="/index.html" class="breadcrumbs__link">Отзывы</a>
+            </li>
+          </ul>
+        </div>
 
+        <div class="reviews">
+          <h2 class="reviews__title">Отзывы</h2>
+          <ul class="reviews__list">
+            <li class="reviews__item">
+              <div class="reviews__frame">
+                <img src="./img/comments/vcvb.png" alt="avatar" class="reviews__avatar-img">
+              </div>
+              <div class="reviews__content">
+                <time class="reviews__date">12.10.2016</time>
+                <div class="reviews__name">Олег Павлов</div>
+                <p class="reviews__text">Пользуемся услугами коворкинга стабильно раз в неделю, когда проводим совещания директоров. Получается намного дешевле и удобно всем добираться. Единственное пожелание – расширить меню, потому что бизнес-ланчи – это все таки средний уровень, а хочется чего то более вкусного, чтобы можно было угощать начальство.</p>
+              </div>
+            </li>
+            <li class="reviews__item">
+              <div class="reviews__frame">
+                <img src="./img/comments/fdfd.png" alt="avatar" class="reviews__avatar-img">
+              </div>
+              <div class="reviews__content">
+                <time class="reviews__date">01.02.2016</time>
+                <div class="reviews__name">Эрнест Изиль</div>
+                <p class="reviews__text">Я фрилансер, программист, работать дома не могу, так как мешают дети. Здесь нашел то, что давно искал – тишину и спокойствие. Эффективность работы выросла, как и гонорары. Очень удобно, что коворкинг находится недалеко от метро. Стабильный интернет, чистота и порядок вокруг, никто не мешает. Цены сначала показались высокими, но учитывая полученные преимущества, все отлично!</p>
+              </div>
+            </li>
+            <li class="reviews__item">
+              <div class="reviews__frame">
+                <img src="./img/comments/logo-fig.png" alt="avatar" class="reviews__avatar-img">
+              </div>
+              <div class="reviews__content">
+                <time class="reviews__date">22.12.2015</time>
+                <div class="reviews__name">Елена Сургай</div>
+                <p class="reviews__text">Захожу сюда не часто, так как не мой район, но когда бываю в центре, то периодически нужно место для плодотворной работы. Интернет-клубы не подходят, так как не обеспечивают такой уровень сервиса, как Воркадиум. Здесь я нахожу вдохновение и могу выделить время для творчества. Желаю Воркадиуму процветания и развития. Если будете открывать филиалы, обратите внимание на Алексеевский район, я буду вашим постоянным клиентом :) </p>
+              </div>
+            </li>
+            <li class="reviews__item">
+                <div class="reviews__frame">
+                  <img src="./img/comments/swcnamirzyc-danielle-marroquin.png" alt="avatar" class="reviews__avatar-img">
+                </div>
+                <div class="reviews__content">
+                  <time class="reviews__date">14.08.2015</time>
+                  <div class="reviews__name">Наталья Осадчая</div>
+                  <p class="reviews__text">Провожу здесь встречи с клиентами в неформальной обстановке. Удобно, что при необходимости все под рукой – и ксерокс, и принтер и магазин канцелярии. Заключаю здесь свои лучшие договора. Единственное пожелание – сделайте еще несколько переговорных комнат на 10-15 человек, а то они пользуются большим спросом и не всегда есть возможность забронировать.</p>
+                </div>
+              </li>
+          </ul>
+          <div class="pagination">
+            <div class="pagination__display">
+              Страница 1 из 7
+            </div>
+            <div class="pagination__controlls">
+              <a href="#" class="pagination__left"><</a>
+              <ul class="pagination__list">
+                <li class="pagination__item">
+                  <a href="#" class="pagination__link">1</a>
+                </li>
+                <li class="pagination__item">
+                  <a href="#" class="pagination__link">2</a>
+                </li>
+                <li class="pagination__item">
+                  <a href="#" class="pagination__link">3</a>
+                </li>
+                <li class="pagination__item">
+                  <a href="#" class="pagination__link">4</a>
+                </li>
+                <li class="pagination__item">
+                  <a href="#" class="pagination__link">5</a>
+                </li>
+                <li class="pagination__item">
+                  <a href="#" class="pagination__link">6</a>
+                </li>
+                <li class="pagination__item">
+                  <a href="#" class="pagination__link">7</a>
+                </li>
+              </ul>
+              <a href="#" class="pagination__right">></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="sale">
+        <div class="container__sale">
+        <img src="./img/comments/pattern.png" alt="">
+        <p>Для наших новых клиентов мы предлагаем <b>скидку 50%</b> на первый день! Приходите, чтобы лично оценить преимущества коворкинга «Воркадиум»!</p>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="reviews__form">
+          <h2 class="form__title">Оставить отзыв</h2>
+          <form>
+            <h6>Ваше имя</h6>
+            <input type="text" placeholder="Андрей">
+            <h6>Ссылка на профиль VK</h6>
+            <input type="text" placeholder="vk.com/example">
+            <h6>Текст отзыва</h6>
+            <textarea name="" id="">Мне понравилось</textarea>
+            <h6>Отображать фото в отзыве?</h6>
+            <input type="radio" name="foto" id="yes">
+            <label for="yes">Да</label>
+            <input type="radio" name="foto" id="no">
+            <label for="no">Нет</label>
+          </form>
+          <div>
+            <a href="#">Отправить</a>
+          </div>
+        </div>
+
+      </div>
     </main>
+
+    <footer class="footer">
+      <div class="container footer__container">
+        <div class="copyright">
+          Сделано с любовью и старанием на курсе «HTML + CSS» в <b>LoftSchool</b>. Автор работы: <b>Потапова Сандра</b>
+        </div>
+        <a href="#" class="logo__footer">
+          <img src="img/logo-fig.png" class="logo__img" alt="Логотип">
+        </a>
+        <div class="socials">
+          <div class="socials__title">Наши социальные сети</div>
+          <ul class="socials__list">
+            <li class="socials__item">
+              <a href="#" class="socials__link">
+                <img src="img/vk.png" class="socials__logo" alt="Соц. сеть лого">
+              </a>
+            </li>
+            <li class="socials__item">
+              <a href="#" class="socials__link">
+                <img src="img/fb.png" class="socials__logo" alt="Соц. сеть лого">
+              </a>
+            </li>
+            <li class="socials__item">
+              <a href="#" class="socials__link">
+                <img src="img/twitter.png" class="socials__logo" alt="Соц. сеть лого">
+              </a>
+            </li>
+            <li class="socials__item">
+              <a href="#" class="socials__link">
+                <img src="img/mail.png" class="socials__logo" alt="Соц. сеть лого">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
 
   </div>
   
