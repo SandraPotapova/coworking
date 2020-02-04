@@ -100,8 +100,11 @@ h2{
 }
 
 .banner{
+  background-color: #27273d;
+  height: 359px;
   margin-bottom: 52px;
 }
+
 
 .sidebar, .content-text{
   display: inline-block;
