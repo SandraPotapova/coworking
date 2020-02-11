@@ -2,158 +2,182 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=1100, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./main.css">
   <title>Prices</title>
 </head>
 <body>
 
   <div class="wrapper">
-
-    <header class="header">
-      <div class="container header__container">
-        <a href="#" class="logo__header">
-          <img src="img/logo-fig.png" alt="Логотип" class="logo__img">
-        </a>
-        <div class="contacts">
-          <a href="tel:8000039210" class="contacts__phone">8 (800) 00-392-10</a>
-          <div class="contacts__workhours">График работы</div>
+    <div class="wrapper__content">
+      <header class="header">
+        <div class="container header__container">
+          <a href="./index.html" class="logo__header">
+            <img src="img/logo-fig.png" alt="Логотип" class="logo__img">
+          </a>
+          <address class="contacts">
+            <a href="tel:8000039210" class="contacts__phone">8 (800) 00-392-10</a>
+            <div class="contacts__workhours">График работы</div>
+          </address>
         </div>
-      </div>
-    </header>
-
-    <main class="page-content">
-      <div class="container container__prices">
-
-        <div class="sidebar">
-          <nav class="menu">
-            <ul class="menu__list">
-              <li class="menu__item menu__item--icon--main">
-                <a href="/index.html" class="menu__link">Главная</a>
-              </li>
-              <li class="menu__item menu__item--icon--feed">
-                <a href="/comments.html" class="menu__link">Отзывы</a>
-              </li>
-              <li class="menu__item menu__item--icon--wallet menu__item--active">
-                <a href="/prices.html" class="menu__link">Тарифы</a>
-             </li>
-            </ul>
-          </nav>
+      </header>
+  
+      <main class="page-content">
+        <div class="container container__prices">
+  
+          <div class="sidebar">
+            <nav class="menu">
+              <ul class="menu__list">
+                <li class="menu__item menu__item--icon--main">
+                  <a href="./index.html" class="menu__link">Главная</a>
+                </li>
+                <li class="menu__item menu__item--icon--feed">
+                  <a href="./comments.html" class="menu__link">Отзывы</a>
+                </li>
+                <li class="menu__item menu__item--icon--wallet menu__item--active">
+                  <a href="./prices.html" class="menu__link">Тарифы</a>
+               </li>
+              </ul>
+            </nav>
+          </div>
+  
+          <section class="content">
+            <div class="breadcrumbs">
+              <ul class="breadcrumbs__list">
+                <li class="breadcrumbs__item">
+                  <a href="./index.html" class="breadcrumbs__link">Главная</a>
+                </li>
+                <li class="breadcrumbs__item">
+                  <a href="./prices.html" class="breadcrumbs__link--active">Тарифы</a>
+                </li>
+              </ul>
+            </div>
+            <div class="content__prices">
+              <div class="prices">
+                <h2 class="prices__title">Тарифы</h2>
+                <ul class="prices__list">
+                  <li class="prices__item">                  
+                    <div class="prices__picture">
+                      <div class="overlay"></div>
+                      <img src="./img/prices/one.png" alt="img" class="prices__img">
+                      <div class="picture__tariff-name">
+                        <h3 class="prices__name">«Один»</h3>
+                      </div> 
+                    </div>
+                    <h5 class="prices__tariff">800 руб/мес или 100 руб/сутки</h5>
+                    <p class="prices__text">Оплачивается рабочее место на 1 человека. Есть возможность оплаты с привязкой к определенному физическому месту. При оплате за год, скидка 30%.</p>
+                  </li>
+                  <li class="prices__item">
+                    <div class="prices__picture">
+                      <div class="overlay"></div>
+                      <img src="./img/prices/three.png" alt="img" class="prices__img">
+                      <div class="picture__tariff-name">
+                        <h3 class="prices__name">«Трое»</h3>
+                      </div>
+                    </div>
+                    <h5 class="prices__tariff">1 500 руб/мес или 200 руб/сутки</h5>
+                    <p class="prices__text">Оплачивается стол на 3 рабочих места. При этом можно ими пользоваться как одновременно, так и поочередно. Можно пользоваться офисной техникой и выделенным шкафом для документов.</p>
+                  </li>
+                  <li class="prices__item">
+                    <div class="prices__picture">
+                      <div class="overlay"></div>
+                      <img src="./img/prices/10-10.png" alt="img" class="prices__img">
+                      <div class="picture__tariff-name">
+                        <h3 class="prices__name">«10-10»</h3>
+                      </div>
+                    </div>
+                    <h5 class="prices__tariff">10 000 руб/мес</h5>
+                    <p class="prices__text">Оплачивается 10 рабочих мест на любые 10 дней месяца. Отлично подходит для периодической работы команды сотрудников без строгой привязки к рабочему месту. При оплате на год вперед скидка 25%</p>
+                  </li>
+                  <li class="prices__item">
+                    <div class="prices__picture">
+                      <div class="overlay"></div>
+                      <img src="./img/prices/vip1.png" alt="img" class="prices__img">
+                      <div class="picture__tariff-name">
+                        <h3 class="prices__name-vip">vip</h3>
+                        <h3 class="prices__name">«Безлимит на одного»</h3> 
+                      </div>             
+                    </div>
+                    <h5 class="prices__tariff">2 500 руб/мес</h5>
+                    <p class="prices__text">В стоимость включена не только оплата рабочего места, но и пользование копировальной техникой, бесплатный кофе или чай в течение дня, возможность использования зала для переговоров при предварительном бронировании 1 раз в месяц.</p>
+                  </li>
+                  <li class="prices__item">
+                    <div class="prices__picture">
+                      <div class="overlay"></div>
+                      <img src="./img/prices/vip2.png" alt="img" class="prices__img">
+                      <div class="picture__tariff-name">
+                        <h3 class="prices__name-vip">vip</h3>
+                        <h3 class="prices__name">«Все включено»</h3>
+                      </div>                                        
+                    </div>
+                    <h5 class="prices__tariff">Цена рассчитывается индивидуально</h5>
+                    <p class="prices__text">Оплачивается необходимое число рабочих мест с привязкой к фактическому местонахождению. В стоимость включены рабочие столы, мебель для хранения документов, отдельный принтер и копировальный автомат. </p>
+                  </li>
+                  <li class="prices__item">
+                    <div class="prices__picture">
+                      <div class="overlay"></div>
+                      <img src="./img/prices/conversation.png" alt="img" class="prices__img">
+                      <div class="picture__tariff-name">
+                        <h3 class="prices__name">«Переговоры»</h3>
+                      </div>                    
+                    </div>
+                    <h5 class="prices__tariff">2 500 руб/час —</h5>
+                    <p class="prices__text"> Аренда среднего зала. Есть возможность раннего бронирования конференц-залов со скидкой до 30% при полной предоплате.</p>
+                  </li>
+                </ul>
+              </div>
+    
+              <div class="partners">
+                <h2 class="partners__title">Партнёры</h2>
+                <ul class="partners__list">
+                  <li class="partners__item">
+                    <a href="#" class="partners__link">
+                      <img src="./img/prices/logo-1.png" alt="partner" class="partners__img">
+                    </a>
+                  </li>
+                  <li class="partners__item">
+                    <a href="#" class="partners__link">
+                      <img src="./img/prices/logo-2.png" alt="partner" class="partners__img">
+                    </a>
+                  </li>
+                  <li class="partners__item">
+                    <a href="#" class="partners__link">
+                      <img src="./img/prices/logo-3.png" alt="partner" class="partners__img">
+                    </a>
+                  </li>
+                  <li class="partners__item">
+                    <a href="#" class="partners__link">
+                      <img src="./img/prices/logo-4.png" alt="partner" class="partners__img">
+                    </a>
+                  </li>
+                  <li class="partners__item">
+                    <a href="#" class="partners__link">
+                      <img src="./img/prices/logo-5.png" alt="partner" class="partners__img">
+                    </a>
+                  </li>
+                  <li class="partners__item">
+                    <a href="#" class="partners__link">
+                      <img src="./img/prices/logo-6.png" alt="partner" class="partners__img">
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            
+          </section>
         </div>
-
-        <div class="breadcrumbs">
-          <ul class="breadcrumbs__list">
-            <li class="breadcrumbs__item">
-              <a href="/index.html" class="breadcrumbs__link">Главная</a>
-            </li>
-            <li class="breadcrumbs__item">
-              <a href="/prices.html" class="breadcrumbs__link">Тарифы</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="prices">
-          <h2 class="prices__title">Тарифы</h2>
-          <ul class="prices__list">
-            <li class="prices__item">
-              <div class="prices__picture">
-                <img src="./img/prices/one.png" alt="img" class="prices__img">
-                <h3 class="prices__name">«Один»</h3>
-              </div>
-              <h5 class="prices__tariff">800 руб/мес или 100 руб/сутки</h5>
-              <p class="prices__text">Оплачивается рабочее место на 1 человека. Есть возможность оплаты с привязкой к определенному физическому месту. При оплате за год, скидка 30%.</p>
-            </li>
-            <li class="prices__item">
-              <div class="prices__picture">
-                <img src="./img/prices/three.png" alt="img" class="prices__img">
-                <h3 class="prices__name">«Трое»</h3>
-              </div>
-              <h5 class="prices__tariff">1 500 руб/мес или 200 руб/сутки</h5>
-              <p class="prices__text">Оплачивается стол на 3 рабочих места. При этом можно ими пользоваться как одновременно, так и поочередно. Можно пользоваться офисной техникой и выделенным шкафом для документов.</p>
-            </li>
-            <li class="prices__item">
-              <div class="prices__picture">
-                <img src="./img/prices/10-10.png" alt="img" class="prices__img">
-                <h3 class="prices__name">«10-10»</h3>
-              </div>
-              <h5 class="prices__tariff">10 000 руб/мес</h5>
-              <p class="prices__text">Оплачивается 10 рабочих мест на любые 10 дней месяца. Отлично подходит для периодической работы команды сотрудников без строгой привязки к рабочему месту. При оплате на год вперед скидка 25%</p>
-            </li>
-            <li class="prices__item">
-              <div class="prices__picture">
-                <img src="./img/prices/vip1.png" alt="img" class="prices__img">
-                <h3 class="prices__name-vip">vip</h3>
-                <h3 class="prices__name">«Безлимит на одного»</h3>
-              </div>
-              <h5 class="prices__tariff">2 500 руб/мес</h5>
-              <p class="prices__text">В стоимость включена не только оплата рабочего места, но и пользование копировальной техникой, бесплатный кофе или чай в течение дня, возможность использования зала для переговоров при предварительном бронировании 1 раз в месяц.</p>
-            </li>
-            <li class="prices__item">
-              <div class="prices__picture">
-                <img src="./img/prices/vip2.png" alt="img" class="prices__img">
-                <h3 class="prices__name-vip">vip</h3>
-                <h3 class="prices__name">«Все включено»</h3>
-              </div>
-              <h5 class="prices__tariff">Цена рассчитывается индивидуально</h5>
-              <p class="prices__text">Оплачивается необходимое число рабочих мест с привязкой к фактическому местонахождению. В стоимость включены рабочие столы, мебель для хранения документов, отдельный принтер и копировальный автомат. </p>
-            </li>
-            <li class="prices__item">
-              <div class="prices__picture">
-                <img src="./img/prices/conversation.png" alt="img" class="prices__img">
-                <h3 class="prices__name">«Переговоры»</h3>
-              </div>
-              <h5 class="prices__tariff">2 500 руб/час —</h5>
-              <p class="prices__text"> Аренда среднего зала. Есть возможность раннего бронирования конференц-залов со скидкой до 30% при полной предоплате.</p>
-            </li>
-          </ul>
-        </div>
-
-        <div class="partners">
-          <h2 class="partners__title">Партнёры</h2>
-          <ul class="partners__list">
-            <li class="partners__item">
-              <a href="#" class="partners__link">
-                <img src="./img/prices/logo-1.png" alt="partner" class="partners__img">
-              </a>
-            </li>
-            <li class="partners__item">
-              <a href="#" class="partners__link">
-                <img src="./img/prices/logo-2.png" alt="partner" class="partners__img">
-              </a>
-            </li>
-            <li class="partners__item">
-              <a href="#" class="partners__link">
-                <img src="./img/prices/logo-3.png" alt="partner" class="partners__img">
-              </a>
-            </li>
-            <li class="partners__item">
-              <a href="#" class="partners__link">
-                <img src="./img/prices/logo-4.png" alt="partner" class="partners__img">
-              </a>
-            </li>
-            <li class="partners__item">
-              <a href="#" class="partners__link">
-                <img src="./img/prices/logo-5.png" alt="partner" class="partners__img">
-              </a>
-            </li>
-            <li class="partners__item">
-              <a href="#" class="partners__link">
-                <img src="./img/prices/logo-6.png" alt="partner" class="partners__img">
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </main>
+      </main>
+    </div>
 
     <footer class="footer">
       <div class="container footer__container">
         <div class="copyright">
           Сделано с любовью и старанием на курсе «HTML + CSS» в <b>LoftSchool</b>. Автор работы: <b>Потапова Сандра</b>
         </div>
-        <a href="#" class="logo__footer">
+        <a href="./index.html" class="logo__footer">
           <img src="img/logo-fig.png" class="logo__img" alt="Логотип">
         </a>
         <div class="socials">

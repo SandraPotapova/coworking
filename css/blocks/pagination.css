@@ -1,0 +1,60 @@
+.pagination,
+.pagination__controlls,
+.pagination__list,
+.pagination__link{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination{
+  font-family: "Gotham Pro";
+  font-size: 14px;
+  padding-right: 127px;
+  
+}
+
+.pagination__display{
+  color: #656464;
+  margin-right: 22px;
+}
+
+.pagination__list{
+  margin-right: 10px
+}
+
+.pagination__item{
+  width: 25px;
+  height: 25px;
+}
+
+.pagination__link{
+  text-decoration: none;
+  color: #262424;
+  font-weight: bold;
+  width: 25px;
+  height: 25px;
+}
+
+.pagination__link:hover{
+  color: #cb2376;
+}
+
+.pagination__link--active{
+  text-decoration: none;
+  background-color: #2b2b40;
+  color: #cb2376;
+  border-radius: 5px;
+}
+
+.pagination__left,
+.pagination__right{
+  text-decoration: none;
+  color: #262424;
+  font-weight: bold;
+}
+
+.pagination__left{
+  margin-right: 10px;
+}

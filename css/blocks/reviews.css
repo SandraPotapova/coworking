@@ -1,0 +1,59 @@
+.reviews{
+  margin-bottom: 59px;
+}
+
+.reviews__title{
+  margin-bottom: 46px;
+}
+
+.reviews__list{
+  margin-bottom: 39px;
+  display: flex;
+  flex-direction: column;
+}
+
+.reviews__item{
+  display: flex;
+}
+
+.reviews__item:not(:last-child){
+  margin-bottom: 48px;
+}
+
+.reviews--frame{
+  width: 160px;
+  height: 160px;
+  border-radius: 80px;
+  margin-right: 23px;
+  position: relative;
+  background-color: #f5f5f5;
+}
+
+.reviews__avatar-img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.reviews__content{
+  width: 690px;
+  font-family: "Gotham Pro";
+  font-size: 18px;
+}
+
+.reviews__date{
+  color: #656464;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.reviews__name{
+  font-weight: bold;
+  padding-top: 5px;
+  margin-bottom: 10px;
+}
+
+.reviews__text{
+  line-height: 30px;
+}

@@ -1,0 +1,80 @@
+.sidebar{
+  padding-left: 20px;
+  display: flex;
+  flex-flow: column nowrap;
+  width: 18%;
+}
+
+.menu__list{
+  display: flex;
+  flex-direction: column;
+}
+
+.menu__link{
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  font-size: 12px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #cb2376;
+  letter-spacing: 1.2px;
+}
+
+.menu__link:hover{
+  color: black;
+}
+
+.menu__link:before{
+  content: "";
+  display: inline-block;
+  margin-right: 16px;
+  vertical-align: sub;
+  width: 20px;
+  height: 18px;
+  background: left center / contain no-repeat;
+}
+
+.menu__item:not(:last-child){
+  margin-bottom: 31px;
+}
+
+.menu__item--active .menu__link{
+  color: black;
+  text-decoration: underline #b4b4b4;
+}
+
+.menu__item--icon--main .menu__link:before{
+  background-image: url(../../img/icon/main_icon.png);
+}
+
+.menu__item--icon--main .menu__link:hover:before{
+  background-image: url(../../img/icon/main_icon-hover.png);
+}
+
+.menu__item--icon--feed .menu__link:before{
+  background-image: url(../../img/icon/feed_icon.png);
+}
+
+.menu__item--icon--feed .menu__link:hover:before{
+  background-image: url(../../img/icon/feed_icon-hover.png);
+}
+
+.menu__item--icon--wallet .menu__link:before{
+  background-image: url(../../img/icon/wallet_icon.png);
+}
+
+.menu__item--icon--wallet .menu__link:hover:before{
+  background-image: url(../../img/icon/wallet_icon-hover.png);
+}
+
+.menu__item--active.menu__item--icon--main .menu__link:before{
+  background-image: url(../../img/icon/main_icon-hover.png);
+}
+
+.menu__item--active.menu__item--icon--feed .menu__link:before{
+  background-image: url(../../img/icon/feed_icon-hover.png);
+}
+
+.menu__item--active.menu__item--icon--wallet .menu__link:before{
+  background-image: url(../../img/icon/wallet_icon-hover.png);
+}
