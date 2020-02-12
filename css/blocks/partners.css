@@ -1,12 +1,11 @@
 .partners__title{
-  margin-bottom: 48px;
+  margin-bottom: 51px;
 }
 
 .partners__list{
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
-  margin-bottom: 64px;
 }
 
 .partners__item{

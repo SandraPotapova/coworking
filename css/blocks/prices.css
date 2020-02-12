@@ -5,19 +5,27 @@
 .prices__list{
   display: flex;
   flex-flow: row wrap;
-  margin-left: -55px;
-  margin-top: -41px;
   margin-bottom: 49px;
 }
 
 .prices__item{
   width: 250px;
-  margin-left: 55px;
+  margin-right: 55px;
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin-top: 41px;
+  margin-bottom: 41px;
   line-height: 21px;
+}
+
+.prices__item:nth-child(3n){
+  margin-right: 0;
+}
+
+.prices__item:nth-child(4),
+.prices__item:nth-child(5),
+.prices__item:nth-child(6){
+  margin-bottom: 0;
 }
 
 .prices__picture{
@@ -27,7 +35,8 @@
   margin-bottom: 23px;
 }
 
-.overlay{
+.prices__picture::before{
+  content: "";
   position: absolute;
   width: 250px;
   height: 153px;
