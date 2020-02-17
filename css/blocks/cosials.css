@@ -1,0 +1,43 @@
+.socials{
+  font-family: "Gotham Pro";
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 25px;
+}
+
+.socials__list{
+  display: flex;
+}
+
+.socials__title{
+  margin-bottom: 8px;
+}
+
+.socials__item{
+  background-color: #d3d3d7;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  transition: .5s;
+}
+
+.socials__item:not(:last-child){
+  margin-right: 11px;
+}
+
+.socials__logo{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.socials__item:hover{
+  background-color: #cb2376;
+  border-radius: 10px;
+}

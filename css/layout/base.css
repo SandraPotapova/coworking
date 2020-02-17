@@ -43,7 +43,7 @@ body{
 
 .wrapper{
   overflow: hidden;
-  min-width: 1100px;
+  min-width: 1200px;
   min-height: 100%;
   display: flex;
   flex-direction: column;
@@ -55,25 +55,36 @@ body{
 
 .container{
   margin: 0 auto;
-  width: 1100px;
+  width: 1200px;
   display: flex;
   flex-flow: row nowrap;
 }
 
 .content{
-  width: 80%;
+  display: flex;
+  flex-direction: row;
+}
+
+.content__rw{
   display: flex;
   flex-direction: column;
 }
 
 .page-prices{
-  margin-bottom: 61px;
+  margin-bottom: 60px;
 }
 
 .page-reviews{
-  margin-bottom: 49px;
+  margin-bottom: 50px;
 }
 
 .page-home{
-  margin-bottom: 70px;
+  margin-bottom: 57px;
+}
+
+.option{
+  display: flex;
+  flex-direction: column;
+  width: 24%;
+  margin-right: 25px;
 }

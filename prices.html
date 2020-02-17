@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=1100, initial-scale=1.0">
+  <meta name="viewport" content="width=1200, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
@@ -14,48 +14,113 @@
   <div class="wrapper">
     <div class="wrapper__content">
       <header class="header">
-        <div class="container header__container">
-          <a href="./index.html" class="logo__header">
+        <div class="container header__container-pr">
+          <a href="./home.html" class="logo__header">
             <img src="img/logo-fig.png" alt="Логотип" class="logo__img">
           </a>
           <address class="contacts">
             <a href="tel:8000039210" class="contacts__phone">8 (800) 00-392-10</a>
-            <div class="contacts__workhours">График работы</div>
+            <div class="contacts__workhours">
+              <a href="#" class="contacts__workhours-link">График работы</a>
+              <div class="contacts__workhours-menu">
+                <ul class="contacts__workhours-list">
+                  <li class="contacts__workhours-work">пн-вс: 09:00-20:00</li>
+                  <li class="contacts__workhours-dinner">обед: 14:00-14:30</li>
+                </ul>
+              </div>
+            </div>
           </address>
         </div>
       </header>
   
       <main class="page-prices">
         <div class="container container__prices">
-  
-          <div class="sidebar">
-            <nav class="menu">
-              <ul class="menu__list">
-                <li class="menu__item menu__item--icon--main">
-                  <a href="./index.html" class="menu__link">Главная</a>
+          <div class="option">
+            <div class="partners">
+              <div class="partners__title">Партнёры</div>
+              <ul class="partners__list">
+                <li class="partners__item">
+                  <a href="#" class="partners__link">
+                    <img src="./img/prices/logo-1.png" alt="partner" class="partners__img">
+                  </a>
                 </li>
-                <li class="menu__item menu__item--icon--feed">
-                  <a href="./comments.html" class="menu__link">Отзывы</a>
+                <li class="partners__item">
+                  <a href="#" class="partners__link">
+                    <img src="./img/prices/logo-4.png" alt="partner" class="partners__img">
+                  </a>
                 </li>
-                <li class="menu__item menu__item--icon--wallet menu__item--active">
-                  <a href="./prices.html" class="menu__link">Тарифы</a>
-               </li>
-              </ul>
-            </nav>
-          </div>
-  
-          <section class="content">
-            <div class="breadcrumbs">
-              <ul class="breadcrumbs__list">
-                <li class="breadcrumbs__item">
-                  <a href="./index.html" class="breadcrumbs__link">Главная</a>
+                <li class="partners__item">
+                  <a href="#" class="partners__link">
+                    <img src="./img/prices/logo-2.png" alt="partner" class="partners__img">
+                  </a>
                 </li>
-                <li class="breadcrumbs__item">
-                  <a href="./prices.html" class="breadcrumbs__link--active">Тарифы</a>
+                <li class="partners__item">
+                  <a href="#" class="partners__link">
+                    <img src="./img/prices/logo-3.png" alt="partner" class="partners__img">
+                  </a>
+                </li>
+                <li class="partners__item">
+                  <a href="#" class="partners__link">
+                    <img src="./img/prices/logo-5.png" alt="partner" class="partners__img">
+                  </a>
+                </li>
+                <li class="partners__item">
+                  <a href="#" class="partners__link">
+                    <img src="./img/prices/logo-6.png" alt="partner" class="partners__img">
+                  </a>
                 </li>
               </ul>
             </div>
+
+            <div class="socials">
+              <div class="socials__title">Наши социальные сети</div>
+              <ul class="socials__list">
+                <li class="socials__item">
+                  <a href="#" class="socials__link">
+                    <img src="img/vk.png" class="socials__logo" alt="Соц. сеть лого">
+                  </a>
+                </li>
+                <li class="socials__item">
+                  <a href="#" class="socials__link">
+                    <img src="img/fb.png" class="socials__logo" alt="Соц. сеть лого">
+                  </a>
+                </li>
+                <li class="socials__item">
+                  <a href="#" class="socials__link">
+                    <img src="img/twitter.png" class="socials__logo" alt="Соц. сеть лого">
+                  </a>
+                </li>
+                <li class="socials__item">
+                  <a href="#" class="socials__link">
+                    <img src="img/mail.png" class="socials__logo" alt="Соц. сеть лого">
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+          
+          
+  
+          <section class="content">
+            
             <div class="content__prices">
+              <div class="sidebar">
+                <nav class="menu">
+                  <ul class="menu__list">
+                    <li class="menu__item menu__item--icon--main">
+                      <a href="./home.html" class="menu__link">Главная</a>
+                    </li>
+                    <li class="menu__item menu__item--icon--feed">
+                      <a href="./comments.html" class="menu__link">Отзывы</a>
+                    </li>
+                    <li class="menu__item menu__item--icon--wallet menu__item--active">
+                      <a href="./prices.html" class="menu__link">Тарифы</a>
+                   </li>
+                  </ul>
+                </nav>
+              </div>
+
               <div class="prices">
                 <h2 class="prices__title">Тарифы</h2>
                 <ul class="prices__list">
@@ -123,42 +188,7 @@
                   </li>
                 </ul>
               </div>
-    
-              <div class="partners">
-                <h2 class="partners__title">Партнёры</h2>
-                <ul class="partners__list">
-                  <li class="partners__item">
-                    <a href="#" class="partners__link">
-                      <img src="./img/prices/logo-1.png" alt="partner" class="partners__img">
-                    </a>
-                  </li>
-                  <li class="partners__item">
-                    <a href="#" class="partners__link">
-                      <img src="./img/prices/logo-2.png" alt="partner" class="partners__img">
-                    </a>
-                  </li>
-                  <li class="partners__item">
-                    <a href="#" class="partners__link">
-                      <img src="./img/prices/logo-3.png" alt="partner" class="partners__img">
-                    </a>
-                  </li>
-                  <li class="partners__item">
-                    <a href="#" class="partners__link">
-                      <img src="./img/prices/logo-4.png" alt="partner" class="partners__img">
-                    </a>
-                  </li>
-                  <li class="partners__item">
-                    <a href="#" class="partners__link">
-                      <img src="./img/prices/logo-5.png" alt="partner" class="partners__img">
-                    </a>
-                  </li>
-                  <li class="partners__item">
-                    <a href="#" class="partners__link">
-                      <img src="./img/prices/logo-6.png" alt="partner" class="partners__img">
-                    </a>
-                  </li>
-                </ul>
-              </div>
+                  
             </div>
             
           </section>
@@ -171,34 +201,10 @@
         <div class="copyright">
           Сделано с любовью и старанием на курсе «HTML + CSS» в <b>LoftSchool</b>. Автор работы: <b>Потапова Сандра</b>
         </div>
-        <a href="./index.html" class="logo__footer">
+        <a href="./home.html" class="logo__footer">
           <img src="img/logo-fig.png" class="logo__img" alt="Логотип">
         </a>
-        <div class="socials">
-          <div class="socials__title">Наши социальные сети</div>
-          <ul class="socials__list">
-            <li class="socials__item">
-              <a href="#" class="socials__link">
-                <img src="img/vk.png" class="socials__logo" alt="Соц. сеть лого">
-              </a>
-            </li>
-            <li class="socials__item">
-              <a href="#" class="socials__link">
-                <img src="img/fb.png" class="socials__logo" alt="Соц. сеть лого">
-              </a>
-            </li>
-            <li class="socials__item">
-              <a href="#" class="socials__link">
-                <img src="img/twitter.png" class="socials__logo" alt="Соц. сеть лого">
-              </a>
-            </li>
-            <li class="socials__item">
-              <a href="#" class="socials__link">
-                <img src="img/mail.png" class="socials__logo" alt="Соц. сеть лого">
-              </a>
-            </li>
-          </ul>
-        </div>
+        
       </div>
     </footer>
 

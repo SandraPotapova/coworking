@@ -7,17 +7,19 @@
 }
 
 .reviews__list{
-  margin-bottom: 39px;
+  margin-bottom: 16px;
   display: flex;
   flex-direction: column;
 }
 
 .reviews__item{
   display: flex;
+  padding-bottom: 22px;
 }
 
 .reviews__item:not(:last-child){
-  margin-bottom: 48px;
+  margin-bottom: 25px;
+  border-bottom: 2px solid #f4f4f4;
 }
 
 .reviews--frame{

@@ -5,16 +5,15 @@
 .prices__list{
   display: flex;
   flex-flow: row wrap;
-  margin-bottom: 49px;
 }
 
 .prices__item{
-  width: 250px;
-  margin-right: 55px;
+  width: 31%;
+  margin-right: 22px;
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin-bottom: 41px;
+  margin-bottom: 75px;
   line-height: 21px;
 }
 
@@ -29,8 +28,6 @@
 }
 
 .prices__picture{
-  width: 250px;
-  height: 153px;
   position: relative;
   margin-bottom: 23px;
 }
@@ -38,8 +35,8 @@
 .prices__picture::before{
   content: "";
   position: absolute;
-  width: 250px;
-  height: 153px;
+  width: 100%;
+  height: 100%;
   top: 0;
   left: 0;
   background-color: #2b2b40;

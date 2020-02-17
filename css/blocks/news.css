@@ -4,23 +4,22 @@
 
 
 .news__list{
-  margin-bottom: 64px;
+  margin-bottom: 20px;
 }
 
 .news__item{
   display: flex;
   flex-flow: row nowrap;
+  padding-bottom: 18px;
 }
 
 .news__avatar--frame{
-  width: 160px;
-  height: 160px;
   border-radius: 80px;
 }
 
 .news__avatar{
-  width: 160px;
-  margin-right: 16px;
+  width: 21%;
+  margin-right: 19px;
 }
 
 .news__content{
@@ -51,5 +50,6 @@
 }
 
 .news__item:not(:last-child){
-  margin-bottom: 49px;
+  margin-bottom: 27px;
+  border-bottom: 2px solid #f4f4f4;
 }

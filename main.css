@@ -2,11 +2,12 @@
 @import url("./css/layout/normalize.css");
 @import url("./css/layout/base.css");
 
+@import url("./css/blocks/anime.css");
 @import url("./css/blocks/header.css");
 @import url("./css/blocks/contacts.css");
 @import url("./css/blocks/banner.css");
+@import url("./css/blocks/cosials.css");
 @import url("./css/blocks/sidebar.css");
-@import url("./css/blocks/breadcrumbs.css");
 @import url("./css/blocks/features.css");
 @import url("./css/blocks/news.css");
 @import url("./css/blocks/reviews.css");
