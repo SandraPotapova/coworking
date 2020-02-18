@@ -1,0 +1,89 @@
+address{
+  font-style: normal;
+}
+
+.contacts{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.contacts__phone{
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  text-align: right;
+  font-size: 21px;
+ }
+
+.contacts__workhours{
+  position: relative;
+}
+
+.contacts__workhours-link{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: #cb2376;
+  text-decoration: underline;
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+.contacts__workhours-menu{
+  position: absolute;
+  background: #fff;
+  padding: 18px 11px;
+  top: 100%;
+  right: 0;
+  border-radius: 5px;
+  box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+  right: -9999px;
+  opacity: 0;
+  transition: opacity .4s;
+  width: 145%;
+}
+
+.contacts__workhours-menu:before{
+  content: "";
+  display: block;
+  height: 30px;
+  left: 0;
+  right: 0;
+  top: -29px;
+  position: absolute;
+}
+
+.contacts__workhours-menu:after{
+  content: "";
+  display: block;
+  position: absolute;
+  border: 10px solid transparent;
+  border-bottom-color: white;
+  bottom: 68px;
+  right: 4px;
+}
+
+.contacts__workhours:hover .contacts__workhours-menu{
+  display: block;
+  right: 0;
+  opacity: 1;
+}
+
+.contacts__workhours:hover .contacts__workhours-link{
+  color: #8ad0f6;
+}
+
+.contacts__workhours-work{
+  color: #cb2376;
+  font-family: "Gotham Pro";
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.contacts__workhours-dinner{
+  color: #262424;
+  font-family: "Gotham Pro";
+  font-size: 14px;
+}

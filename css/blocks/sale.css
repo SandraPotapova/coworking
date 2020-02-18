@@ -1,0 +1,23 @@
+.sale{
+  background-color: #2b2b40;
+  background-image: url(../../img/comments/pattern.png);
+  width: 94%;
+  margin-left: 19px;
+  margin-bottom: 33px;
+  padding: 26px 9px;
+  height: 13%;
+  text-align: center;
+}
+
+
+.sale__text{
+  font-family: "Gotham Pro";
+  font-size: 18px;
+  color: #ffffff;
+  line-height: 30px;
+}
+
+.sale__text strong{
+  color: #cb2376;
+
+}

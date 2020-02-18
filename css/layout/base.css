@@ -1,0 +1,90 @@
+*{
+  box-sizing: border-box;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+ul li{
+  list-style: none;
+}
+
+p{
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+  margin: 0;
+  font-weight: normal;
+}
+
+h2{
+  font-weight: bold;
+  font-size: 49px;
+  line-height: 38px;
+}
+
+h3{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+html, body{
+  height: 100%;
+}
+
+body{
+  margin: 0;
+  font-family: "Gotham Pro";
+  color: #262424;
+}
+
+.wrapper{
+  overflow: hidden;
+  min-width: 1200px;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper__content{
+  flex: 1;
+}
+
+.container{
+  margin: 0 auto;
+  width: 1200px;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.content{
+  display: flex;
+  flex-direction: row;
+}
+
+.content__rw{
+  display: flex;
+  flex-direction: column;
+}
+
+.page-prices{
+  margin-bottom: 60px;
+}
+
+.page-reviews{
+  margin-bottom: 50px;
+}
+
+.page-home{
+  margin-bottom: 57px;
+}
+
+.option{
+  display: flex;
+  flex-direction: column;
+  width: 24%;
+  margin-right: 25px;
+}

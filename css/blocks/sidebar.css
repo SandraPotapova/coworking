@@ -1,0 +1,180 @@
+.sidebar__home{
+  width: 45%;
+  padding-left: 64px;
+}
+
+.sidebar{
+  width: 56%;
+  margin-bottom: 27px;
+  padding-left: 36px;
+}
+
+.menu{
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.menu__list{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.menu__link{
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+  font-size: 12px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #cb2376;
+  letter-spacing: 1.2px;
+  transition: .5s;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.menu__link-home{
+  font-weight: bold;
+  font-size: 12px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  transition: .5s;
+  display: flex;
+  align-items: center;
+  color: white;
+  position: relative;
+}
+
+.menu__link-home:hover{
+  color: #cb2376;
+}
+
+.menu__link:hover{
+  color: black;
+}
+
+.menu__link:before{
+  content: "";
+  display: flex;
+  flex-direction: row;
+  margin-right: 16px;
+  width: 20px;
+  height: 18px;
+  vertical-align: sub;
+  position: absolute;
+  bottom: 0px;
+  right: 72px;
+  background: url(../../img/icon/srpite.png);
+}
+
+.menu__link-home:before{
+  content: "";
+  display: flex;
+  flex-direction: row;
+  margin-right: 16px;
+  width: 20px;
+  height: 18px;
+  vertical-align: sub;
+  position: absolute;
+  bottom: 0px;
+  right: 72px;
+  display: block;
+  background: url(../../img/icon/srpite.png);
+}
+
+.menu__item--active .menu__link-home{
+  color: #cb2376;
+  text-decoration: underline #cb2376;
+}
+
+.menu__item--active .menu__link{
+  color: black;
+  text-decoration: underline #b4b4b4;
+}
+
+.menu__item--icon--main .menu__link-home:before{
+  width: 17px; 
+  height: 15px;
+  background-position: -47px -86px;
+}
+
+.menu__item--icon--feed .menu__link-home:before{
+  width: 20px;
+  height: 18px;
+  background-position: -10px -10px;
+}
+
+.menu__item--icon--wallet .menu__link-home:before{
+  width: 19px;
+  height: 16px;
+  background-position: -90px -10px;
+}
+
+.menu__item--icon--feed .menu__link-home:hover:before{
+  width: 20px;
+  height: 18px;
+  background-position: -50px -10px;
+}
+
+.menu__item--icon--wallet .menu__link-home:hover:before{
+  width: 19px;
+  height: 16px;
+  background-position: -50px -48px;
+}
+
+.menu__item--icon--main .menu__link:before{
+  width: 17px;
+  height: 15px;
+  background-position: -47px -86px;
+}
+
+.menu__item--icon--main .menu__link:hover:before{
+  width: 17px;
+  height: 15px;
+  background-position: -10px -86px;
+}
+
+.menu__item--icon--feed .menu__link:before{
+  width: 20px;
+  height: 18px;
+  background-position: -50px -10px;
+}
+
+.menu__item--icon--feed .menu__link:hover:before{
+  width: 20px;
+  height: 18px;
+  background-position: -10px -48px;
+}
+
+.menu__item--icon--wallet .menu__link:before{
+  width: 19px;
+  height: 16px;
+  background-position: -50px -48px;
+}
+
+.menu__item--icon--wallet .menu__link:hover:before{
+  width: 19px;
+  height: 16px;
+  background-position: -90px -46px;
+}
+
+.menu__item--active.menu__item--icon--main .menu__link:before{
+  width: 17px;
+  height: 15px;
+  background-position: -10px -86px;
+}
+
+.menu__item--active.menu__item--icon--feed .menu__link:before{
+  width: 20px;
+  height: 18px;
+  background-position: -10px -48px;
+}
+
+.menu__item--active.menu__item--icon--wallet .menu__link:before{
+  width: 19px;
+  height: 16px;
+  background-position: -90px -46px;
+}
