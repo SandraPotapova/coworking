@@ -54,6 +54,16 @@ address{
   position: absolute;
 }
 
+.contacts__workhours-menu:after{
+  content: "";
+  display: block;
+  position: absolute;
+  border: 10px solid transparent;
+  border-bottom-color: white;
+  bottom: 68px;
+  right: 4px;
+}
+
 .contacts__workhours:hover .contacts__workhours-menu{
   display: block;
   right: 0;
