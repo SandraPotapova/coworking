@@ -5,6 +5,7 @@ address{
 .contacts{
   display: flex;
   flex-direction: column;
+  align-items: flex-end;
 }
 
 .contacts__phone{
@@ -18,7 +19,6 @@ address{
 
 .contacts__workhours{
   position: relative;
-  text-align: right;
 }
 
 .contacts__workhours-link{
@@ -42,6 +42,7 @@ address{
   right: -9999px;
   opacity: 0;
   transition: opacity .4s;
+  width: 145%;
 }
 
 .contacts__workhours-menu:before{
